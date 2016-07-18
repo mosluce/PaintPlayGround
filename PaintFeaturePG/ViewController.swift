@@ -27,11 +27,11 @@ class ViewController: UIViewController {
         paintableImageView.brush = brushes[sender.selectedSegmentIndex]
     }
     
-    @IBAction func rotate(sender: AnyObject) {
-        UIView.animateWithDuration(0.3) {
-            self.paintableImageView.transform = CGAffineTransformRotate(self.paintableImageView.transform, (90.0 * CGFloat(M_PI)) / 180.0)
-        }
-    }
+    //@IBAction func rotate(sender: AnyObject) {
+    //UIView.animateWithDuration(0.3) {
+    //self.paintableImageView.transform = CGAffineTransformRotate(self.paintableImageView.transform, (90.0 * CGFloat(M_PI)) / 180.0)
+    //}
+    //}
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

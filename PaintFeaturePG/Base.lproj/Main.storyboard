@@ -47,19 +47,10 @@
                                     <constraint firstItem="QZv-1A-wfe" firstAttribute="centerX" secondItem="Dfu-dC-iwf" secondAttribute="centerX" id="zJd-SM-MOY"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="suP-HM-BQb">
-                                <rect key="frame" x="535" y="562" width="45" height="30"/>
-                                <state key="normal" title="Rotate"/>
-                                <connections>
-                                    <action selector="rotate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y2b-Y8-cJ0"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="WHM-ML-g4R" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="31u-8l-2sL"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="suP-HM-BQb" secondAttribute="bottom" constant="8" id="DhN-oB-RlS"/>
-                            <constraint firstItem="suP-HM-BQb" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Qgg-zD-ZHZ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="WHM-ML-g4R" secondAttribute="trailing" constant="-20" id="Ycd-M6-vA8"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WHM-ML-g4R" secondAttribute="bottom" id="e78-TY-qE5"/>
                             <constraint firstItem="Dfu-dC-iwf" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="gSv-bU-woW"/>
